@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Kotlin Demo</string>
+    <string name="enter_content">请输入修改内容</string>
+</resources>

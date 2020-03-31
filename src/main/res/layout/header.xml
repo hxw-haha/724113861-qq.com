@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="headerModel"
+            type="com.android.kotlin.demo.model.HeaderModel" />
+    </data>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/header_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/header_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_gravity="center"
+            android:background="@android:color/white"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/header_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="start"
+                android:textColor="#3691ff"
+                android:textSize="18sp"
+                android:visibility="@{headerModel.getVisible(headerModel.leftVisible),default=invisible}" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/header_center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#123412"
+                android:textSize="22sp"
+                android:visibility="@{headerModel.getVisible(headerModel.centerVisible),default=invisible}" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/header_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:layout_marginRight="12sp"
+                android:textColor="#3691ff"
+                android:textSize="18sp"
+                android:visibility="@{headerModel.getVisible(headerModel.rightVisible),default=invisible}" />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+</layout>
