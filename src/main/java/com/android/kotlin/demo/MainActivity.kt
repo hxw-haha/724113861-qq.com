@@ -2,7 +2,7 @@ package com.android.kotlin.demo
 
 import android.os.Bundle
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
 import com.android.kotlin.demo.base.ui.activity.DefaultActivity
 import com.android.kotlin.demo.model.EditTextModel
 import com.android.kotlin.demo.viewModel.EditViewModel
@@ -27,7 +27,8 @@ class MainActivity : DefaultActivity(), MainContact.MainPresenter {
         val editTextModel = EditTextModel();
         mMainView.mainBinding.editTextModel = editTextModel;
 
-        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java)
+        val editViewModel = ViewModelProvider(this)[EditViewModel::class.java];
+//        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java)
         editViewModel.get().observe(this, Observer {
             mMainView.mainBinding.editTextModel = it
             mMainView.loadEditTextData(it.mainEditText)
@@ -35,7 +36,8 @@ class MainActivity : DefaultActivity(), MainContact.MainPresenter {
     }
 
     override fun submit(message: String) {
-        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java)
+        val editViewModel = ViewModelProvider(this)[EditViewModel::class.java];
+//        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java)
         val editTextModel = EditTextModel();
         editTextModel.mainEditText = message;
         editViewModel.set(editTextModel)

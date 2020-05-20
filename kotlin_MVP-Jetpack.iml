@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id=":kotlin_MVP-Jetpack" external.linked.project.path="$MODULE_DIR$/../kotlin_MVP-Jetpack" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+<module external.linked.project.id=":kotlin_MVP-Jetpack" external.linked.project.path="$MODULE_DIR$" external.root.project.path="$MODULE_DIR$/.." external.system.id="GRADLE" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="android-gradle" name="Android-Gradle">
       <configuration>
@@ -19,7 +19,7 @@
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/build/generated/res/rs/debug;file://$MODULE_DIR$/build/generated/res/resValues/debug" />
         <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
@@ -30,7 +30,7 @@
           <option name="additionalArguments" value="-Xallow-no-source-files" />
         </compilerSettings>
         <compilerArguments>
-          <option name="destination" value="$MODULE_DIR$/../kotlin_MVP-Jetpack/build/tmp/kotlin-classes/debug" />
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
           <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-1/files-1.1/databinding-adapters-3.3.2.aar/f456073fccee785ff5d5aa07015cc31b/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/databinding-runtime-3.3.2.aar/b54c23a1be3b6586c9de733d59743469/jars/classes.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.3.2/c3d3a2bd4075de662778b79f7bcf480ca1d4e0d9/databinding-common-3.3.2.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.71/4e50c67bac9e76cbdf5ab9255eeb74f7bf1c34f1/kotlin-android-extensions-runtime-1.3.71.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.71/9180d3aec3f0b2ea6ef0dcf01b464a6e2219e381/kotlin-stdlib-jdk7-1.3.71.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/2609b47988be49d086264bc07313218b/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/31996016d15d6fe46cc658dc4524e759/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.3.aar/a7386123e8f72244ec2978ee0cb25d59/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-extensions-2.2.0.aar/035e7d29e781dbd469d4571982e726e2/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/appcompat-resources-1.1.0.aar/96062f22281226ea1fe5934a44c40764/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/323f8b21484d5166557fb86b917af379/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/d1299b6194b3a27997ee4acd5843dd2d/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/54e1740485fa1379a19b4c5b3b0facd4/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/5db85145710b9c21939dd37d951c913b/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/f85692eb2c8582513850fca9d0f8dbd3/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/fragment-1.2.0.aar/bd716e44d15431b1bf960be65c4fbf39/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.1.0.aar/6b095d26164124977f4ed363c2d2c100/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.1.0.aar/7775cdcf3d3dea9431f96fe4c50324a1/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/34dd51b35bac27beb86ccbfe807448f8/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/a77f4ab2f8539cd47e80484c18732fd8/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/8e4ebb91ced2d97a478ac2bbb4e60225/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/e12cec8ffcc0e7388a750273b62940bc/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/49934d0828f2b922c25b1c837ccba15b/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/b390801ffee6a70a0c1444dcdb67b9bb/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/c5db6a74de4a981c027d4c5425b41a87/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/activity-1.1.0.aar/13f855475992973f31b4bab372cfc52f/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/8b8d41961980bca67df456a02ee59363/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-process-2.2.0.aar/258e93fcdff1e194d60f2ce97e5dceea/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-service-2.2.0.aar/b7b0b8baf35210e3d5138a44375f38a7/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.2.0.aar/f14eecea09995471107253689f7cd6a5/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/73d529b661b77157bee98a3898e0ff7f/jars/classes.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.71/898273189ad22779da6bed88ded39b14cb5fd432/kotlin-stdlib-1.3.71.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/2b28291c799b16221cc44eaadc542192/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/1f3e64349f304193b8a71ac11d641160/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.2.0.aar/a7052f78e05b13eb795f699e9a5bcf55/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-savedstate-1.0.0.aar/566b23385d31f30d668054680350f619/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.2.0.aar/151fde5c82025cfbf0da3eb15b4aa4ff/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/core-runtime-2.1.0.aar/a32353ba7d83c40d95f148ab59600bc0/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/37c9aeb23291f4504acd737bbac09552/jars/classes.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.2.0/4ef09a745007778eef83b92f8f23987a8ea59496/lifecycle-common-2.2.0.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.2.0.aar/12e04580fe50dba1646be267fb2913a2/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/de724e49fe594f945d4c11de5a41ce6c/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/5b98b30c16f681006e060d9bc2044325/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/b4ff307d20b264127d7b88ed7950cbdb/jars/classes.jar;C:/Users/Administrator/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/9c7d3fb26ed17a6c36e7097c65cce027/jars/classes.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.1.0/e3a6fb2f40e3a3842e6b7472628ba4ce416ea4c8/annotation-1.1.0.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.71/e71c3fef58e26affeb03d675e91fd8abdd44aa7b/kotlin-stdlib-common-1.3.71.jar;C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;D:/Android/Android_SDK/platforms/android-29/android.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
@@ -65,81 +65,81 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
-    <output-test url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
+    <output url="file://$MODULE_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
+    <output-test url="file://$MODULE_DIR$/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack">
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/apt/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/renderscript_source_output_dir/debug/compileDebugRenderscript/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/res/rs/debug" type="java-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/res/resValues/debug" type="java-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/kapt/debugAndroidTest" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/aidl_source_output_dir/debugAndroidTest/compileDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/renderscript_source_output_dir/debugAndroidTest/compileDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/res/rs/androidTest/debug" type="java-test-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/res/resValues/androidTest/debug" type="java-test-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/kapt/debugUnitTest" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/debug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/debug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/debug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/debug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/debug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/debug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTestDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTestDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTestDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTestDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTestDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTestDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTestDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/testDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTest/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTest/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTest/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTest/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTest/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTest/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/androidTest/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/src/test/shaders" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debug/compileDebugRenderscript/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/debug" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/debugAndroidTest" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debugAndroidTest/compileDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debugAndroidTest/compileDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/debug" type="java-test-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/debugUnitTest" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
     </content>
     <orderEntry type="jdk" jdkName="Android API 29 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Gradle: kaptGeneratedClasses">
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/tmp/kapt3/classes/debugAndroidTest" />
-          <root url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/tmp/kapt3/classes/debug" />
-          <root url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/tmp/kapt3/classes/debugUnitTest" />
-          <root url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/tmp/kapt3/classes/release" />
-          <root url="file://$MODULE_DIR$/../kotlin_MVP-Jetpack/build/tmp/kapt3/classes/releaseUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/debugAndroidTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/debug" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/debugUnitTest" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/release" />
+          <root url="file://$MODULE_DIR$/build/tmp/kapt3/classes/releaseUnitTest" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

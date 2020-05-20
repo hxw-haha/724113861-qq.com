@@ -1,7 +1,7 @@
 package com.android.kotlin.demo
 
 import android.os.Bundle
-import androidx.lifecycle.ViewModelProviders
+import androidx.lifecycle.ViewModelProvider
 import com.android.kotlin.demo.base.ui.fragment.DefaultFragment
 import com.android.kotlin.demo.model.EditTextModel
 import com.android.kotlin.demo.viewModel.EditViewModel
@@ -26,7 +26,8 @@ class SecondFragment : DefaultFragment(), SecondContact.SecondPresenter {
 
     override fun initData(savedInstanceState: Bundle?) {
         super.initData(savedInstanceState)
-        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java);
+        val editViewModel = ViewModelProvider(this)[EditViewModel::class.java];
+//        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java);
         mSecondView.secondBinding.editTextModel = editViewModel.get().value;
     }
 
@@ -35,7 +36,8 @@ class SecondFragment : DefaultFragment(), SecondContact.SecondPresenter {
     }
 
     override fun updateAndBackPage() {
-        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java);
+        val editViewModel = ViewModelProvider(this)[EditViewModel::class.java];
+//        val editViewModel = ViewModelProviders.of(this).get(EditViewModel::class.java);
         val editTextModel = EditTextModel();
         editTextModel.mainEditText = mSecondView.secondBinding.editText.text.toString()
         editViewModel.set(editTextModel);
